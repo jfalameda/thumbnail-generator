@@ -1,0 +1,22 @@
+Thumbnail generator
+
+Version 0.1
+
+This script generates thumbnails of all the images of a specified directory
+it will place all the resized images on the given directory, in case missing they will be placed on %images_dir%/output
+Author: José Fernández Alameda
+Email: jose (at) alamedanet.es
+
+
+Command line arguments
+
+Arguments
+ -i /path/to/images -> Indicates the directory where the images we want to transform are
+ -o /path/to/output -> Folder where the output generated images will be placed
+ -v Verbose mode
+ -w Display warnings
+ -s NUMBER -> Size of the ouput image in pixels
+
+E.g.      
+
+       $ ruby thumbnails_generator.rb -i images -o thumbnails -v -w -s 150
